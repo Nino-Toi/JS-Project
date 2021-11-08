@@ -41,3 +41,8 @@ newNumbers.c.x = 10;
 console.log(newNumbers);
 console.log(numbers);
 
+const add = {
+    d:17,
+    e:20
+};
+console.log(Object.assign(numbers, add));
