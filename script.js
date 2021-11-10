@@ -57,3 +57,8 @@ newArray[1] = 'asds';
 console.log(newArray);
 console.log(oldArray);
 
+const video = ['youtube', 'vimeo', 'rutube'],
+      blogs = ['wordpress', 'livejournal', 'blogger'],
+      internet = [...video, ... blogs, 'vk', 'facebook'];
+      console.log(internet);
+      
