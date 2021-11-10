@@ -45,4 +45,15 @@ const add = {
     d:17,
     e:20
 };
-console.log(Object.assign(numbers, add));
+//console.log(Object.assign(numbers, add));
+const clone = Object.assign ({}, add);
+clone.d = 20;
+// console.log(add);
+// console.log(clone);
+const oldArray = ['a', 'b', 'c'];
+const newArray = oldArray.slice();
+
+newArray[1] = 'asds';
+console.log(newArray);
+console.log(oldArray);
+
